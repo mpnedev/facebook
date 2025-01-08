@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+#cabecalho {
+    background-color: #1877f2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+#logo img {
+    width: 120px;
+}
+
+#barra-pesquisa input {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    width: 400px;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#corpo {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+#barra-lateral {
+    width: 200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#barra-lateral ul {
+    list-style: none;
+}
+
+#barra-lateral ul li {
+    margin: 10px 0;
+}
+
+#barra-lateral ul li a {
+    text-decoration: none;
+    color: #1877f2;
+}
+
+#feed {
+    flex-grow: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#postagem textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+#postagem button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.usuario img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.usuario span {
+    font-weight: bold;
+}
+
+.interacoes button {
+    background-color: transparent;
+    border: none;
+    color: #1877f2;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#barra-lateral-direita {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#amigos-online h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#amigos-online ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+#amigos-online ul li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#rodape {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+#rodape ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#rodape ul li a {
+    text-decoration: none;
+    color: #1877f2;
+}
